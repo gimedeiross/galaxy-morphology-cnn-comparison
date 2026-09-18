@@ -1,59 +1,68 @@
-# Galaxy Zoo — Comparação de Arquiteturas CNN
+# Galaxy Zoo — CNN Architecture Comparison
 
-Projeto da disciplina de **Inteligência Artificial II**: treinamento, avaliação e comparação de três arquiteturas de CNN (**ResNet18**, **GoogLeNet**, **MobileNetV3 Small**) na classificação de galáxias, usando transfer learning a partir de pesos pré-treinados na ImageNet.
+[🇧🇷 Leia em português](README.pt-BR.md)
 
-📖 **Documentação completa:** [link do GitHub Pages] <!-- ex.: https://<usuario>.github.io/IA2/ -->
+Project for the **Artificial Intelligence II** course: training, evaluating, and comparing three CNN architectures (**ResNet18**, **GoogLeNet**, and **MobileNetV3 Small**) for galaxy classification, using transfer learning from weights pre-trained on ImageNet.
 
-## Sobre
+📖 **Complete documentation:** [GitHub Pages link](https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/)
 
-O projeto usa o dataset [`mrJordi0/galaxy-zoo-dataset`](https://huggingface.co/datasets/mrJordi0/galaxy-zoo-dataset) (Hugging Face) para classificar galáxias em 8 classes morfológicas, comparando as três arquiteturas sob as mesmas condições experimentais (seed fixa, mesmo split, mesma configuração de treino), coletando métricas de desempenho e de custo computacional para uso no artigo científico.
+## About
 
-## Instalação rápida
+The project uses the [`mrJordi0/galaxy-zoo-dataset`](https://huggingface.co/datasets/mrJordi0/galaxy-zoo-dataset) dataset (Hugging Face) to classify galaxies into 8 morphological classes, comparing the three architectures under the same experimental conditions (fixed seed, same split, same training configuration), collecting performance and computational cost metrics for use in the scientific paper.
+
+## Quick Installation
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd IA2
+git clone https://github.com/gimedeiross/galaxy-morphology-cnn-comparison
+
+cd galaxy-morphology-cnn-comparison/
 
 python3 -m venv .venv
+
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
 ```
 
-## Uso
+## Usage
 
 ```bash
-# (opcional) inspecionar e visualizar o dataset
+# (optional) inspect and visualize the dataset
+
 python -m src.inspect_dataset
+
 python -m src.visualize_dataset
 
-# treinar todos os modelos (padrão)
-python main.py
+# train all models (default)
 
-# ou treinar um modelo específico
+python main.py --model all
+
+# or train a specific model
+
 python main.py --model resnet   # | googlenet | mobilenet
 
-# comparar os resultados (após treinar os três)
+# compare the results (after training all three models)
+
 python -m src.compare_results
 ```
 
-Os resultados (métricas, checkpoints e gráficos) são salvos automaticamente em `results/<modelo>/`.
+Results (metrics, checkpoints, and plots) are automatically saved in `results/<model>/`.
 
-## Estrutura
+## Structure
 
 ```text
-IA2/
-├── models/       # definição das 3 arquiteturas
-├── src/          # dataset, treino, avaliação, comparação
-├── results/      # métricas e gráficos gerados (criado automaticamente)
-├── config.py     # hiperparâmetros e flags do experimento
-└── main.py       # ponto de entrada
+galaxy-morphology-cnn-comparison//
+├── models/       # definition of the 3 architectures
+├── src/          # dataset, training, evaluation, comparison
+├── results/      # generated metrics and plots (created automatically)
+├── config.py     # experiment hyperparameters and flags
+└── main.py       # entry point
 ```
 
-## Documentação
+## Documentation
 
-Para detalhes sobre o dataset, configuração, cada arquitetura, métricas coletadas, base teórica das técnicas usadas e o histórico de alterações do projeto, veja a documentação completa: [link do GitHub Pages] <!-- ex.: https://<usuario>.github.io/IA2/ -->
+For details about the dataset, configuration, each architecture, collected metrics, the theoretical basis of the techniques used, and the project's change history, see the complete documentation: [GitHub Pages link](https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/)
 
-## Licença
+## License
 
-Projeto acadêmico desenvolvido para a disciplina de Inteligência Artificial II.
+Academic project developed for the Artificial Intelligence II course.

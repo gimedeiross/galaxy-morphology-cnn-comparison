@@ -3,9 +3,9 @@
 ## 1. Clone the repository
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/gimedeiross/galaxy-morphology-cnn-comparison
 
-cd IA2
+cd galaxy-morphology-cnn-comparison/
 ```
 
 ## 2. Create the virtual environment

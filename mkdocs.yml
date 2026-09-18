@@ -27,7 +27,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.instant
     - content.code.copy
     - search.suggest
 
@@ -50,15 +49,14 @@ plugins:
           nav_translations:
             Início: Home
             Instalação: Installation
-            Primeiros Passos: Getting Started
-            Configuração: Config
             Dataset: Dataset
-            Metodologia (base teórica): Techniques (theoretical background)
+            Configuração: Config
             Modelos: Models
             Treinamento: Training
-            Resultados: Results
+            Métricas e resultados: Results
+            Metodologia (base teórica): Techniques (theoretical background)
+            Changelog: Changelog            
             Artigo: Scientific Paper
-            Changelog: Changelog
 
 markdown_extensions:
   - admonition

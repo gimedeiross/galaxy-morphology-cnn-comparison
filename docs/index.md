@@ -44,7 +44,7 @@ Dessa forma, os resultados poderão ser utilizados para discutir os **trade-offs
 ## Estrutura do projeto
 
 ```text
-IA2/
+galaxy-morphology-cnn-comparison/
 │
 ├── models/
 │   ├── resnet.py

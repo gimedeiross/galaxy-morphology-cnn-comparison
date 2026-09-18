@@ -296,3 +296,24 @@
   background: linear-gradient(var(--neon-cyan-bright), var(--neon-magenta));
   border-radius: 6px;
 }
+
+/* Artigo / Scientific Paper */
+.md-tabs__item:last-child {
+  position: relative;
+}
+
+.md-tabs__item:last-child::before {
+  content: "";
+  position: absolute;
+  inset: 0.45rem 0.15rem;
+  background: var(--neon-cyan);
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.md-tabs__item:last-child .md-tabs__link {
+  position: relative;
+  z-index: 1;
+  color: white !important;
+  font-weight: 600;
+}

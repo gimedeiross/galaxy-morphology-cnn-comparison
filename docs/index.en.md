@@ -44,7 +44,7 @@ This way, the results can be used to discuss the **performance vs. computational
 ## Project structure
 
 ```text
-IA2/
+galaxy-morphology-cnn-comparison/
 │
 ├── models/
 │   ├── resnet.py
