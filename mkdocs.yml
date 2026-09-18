@@ -1,0 +1,81 @@
+site_name: Galaxy Zoo — Comparação de Arquiteturas CNN
+site_description: Documentação do projeto de Inteligência Artificial II — treinamento, avaliação e comparação de ResNet18, GoogLeNet e MobileNetV3 Small na classificação de galáxias.
+repo_url: https://github.com/gimedeiross/galaxy-morphology-cnn-comparison
+repo_name: galaxy-morphology-cnn-comparison
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  font:
+    text: Space Grotesk
+    code: JetBrains Mono
+  icon:
+    logo: material/atom
+  palette:
+    - scheme: slate
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Modo claro
+    - scheme: default
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo escuro (neon)
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: pt
+          default: true
+          name: Português
+          build: true
+        - locale: en
+          name: English
+          build: true
+
+          nav_translations:
+            Início: Home
+            Instalação: Installation
+            Primeiros Passos: Getting Started
+            Configuração: Config
+            Dataset: Dataset
+            Metodologia (base teórica): Techniques (theoretical background)
+            Modelos: Models
+            Treinamento: Training
+            Resultados: Results
+            Artigo: Scientific Paper
+            Changelog: Changelog
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Início: index.md
+  - Instalação: getting-started.md
+  - Dataset: dataset.md
+  - Configuração: configuration.md
+  - Modelos: models.md
+  - Treinamento: training.md
+  - Métricas e resultados: results.md
+  - Metodologia (base teórica): methodology.md
+  - Changelog: changelog.md
+  - Artigo: article.md

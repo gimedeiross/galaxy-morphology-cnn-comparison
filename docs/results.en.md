@@ -1,0 +1,187 @@
+# Collected metrics
+
+The project collects metrics both during training and during the final evaluation.
+
+## During training
+
+Recorded per epoch:
+
+* Training Loss / Validation Loss;
+* Training Accuracy / Validation Accuracy;
+* Training F1 Macro / Validation F1 Macro;
+* time per epoch;
+* total training time;
+* best Validation F1 Macro and the corresponding Validation Accuracy;
+* number of epochs run;
+* peak GPU memory used (`max_gpu_memory_gb`).
+
+The **validation Macro F1** — not accuracy — is the criterion used to decide which checkpoint to save and for early stopping, since it's more robust to class imbalance.
+
+## Final evaluation
+
+Computed on the test set:
+
+* Accuracy;
+* Precision Weighted;
+* Recall Weighted;
+* F1-score Weighted;
+* Precision Macro;
+* Recall Macro;
+* F1-score Macro;
+* Classification Report;
+* Confusion matrix.
+
+**Macro F1** is especially important in this project due to class imbalance, since it weighs every class equally.
+
+---
+
+# Computational cost metrics
+
+Also recorded:
+
+* total number of parameters;
+* number of trainable parameters (especially relevant with `FREEZE_BACKBONE = True`, when this number is much smaller than the total);
+* total training time;
+* evaluation time;
+* device used;
+* GPU used;
+* peak GPU memory used.
+
+This information allows comparing not only which model performs best, but also which offers the best **performance-to-computational-cost ratio**.
+
+---
+
+# Results
+
+Results are automatically stored in:
+
+```text
+results/
+```
+
+For each architecture:
+
+```text
+results/
+├── resnet/
+│   ├── best_model.pth
+│   ├── metrics.json
+│   ├── history.json
+│   ├── confusion_matrix.png
+│   ├── loss_curve.png
+│   ├── accuracy_curve.png
+│   └── f1_macro_curve.png
+│
+├── googlenet/
+│   ├── best_model.pth
+│   ├── metrics.json
+│   ├── history.json
+│   ├── confusion_matrix.png
+│   ├── loss_curve.png
+│   ├── accuracy_curve.png
+│   └── f1_macro_curve.png
+│
+└── mobilenet/
+    ├── best_model.pth
+    ├── metrics.json
+    ├── history.json
+    ├── confusion_matrix.png
+    ├── loss_curve.png
+    ├── accuracy_curve.png
+    └── f1_macro_curve.png
+```
+
+At the end of a `main.py` run, this is also created:
+
+```text
+results/training_summary.json
+```
+
+This file consolidates the raw results of the models trained **in that run** (a single model, if `--model resnet/googlenet/mobilenet` was used, or all three, if `--model all`).
+
+!!! warning "Note"
+    `results/comparison.json` — the formatted comparison table used for the paper — is **not** generated automatically by `main.py`. It's produced separately by `compare_results.py` (see the next section), which also requires that all three models have already been trained and their `metrics.json` files are present.
+
+---
+
+# Comparing results
+
+After all three models have been trained (`python main.py --model all`, or the three `--model <model>` runs individually), run:
+
+```bash
+python -m src.compare_results
+```
+
+This script reads `results/<model>/metrics.json` for each architecture, builds the comparison table and prints it to the console:
+
+| Model       | Accuracy | F1 Macro | F1 Weighted | Parameters | Time |
+| ----------- | -------: | -------: | ----------: | ---------: | ---: |
+| ResNet18    |        - |        - |           - |          - |    - |
+| GoogLeNet   |        - |        - |           - |          - |    - |
+| MobileNetV3 |        - |        - |           - |          - |    - |
+
+Values will be filled in after running the experiments.
+
+In addition to the table, the script generates and saves:
+
+```text
+results/
+├── comparison.json
+└── model_comparison.png
+```
+
+---
+
+# Files important for the paper
+
+## `metrics.json`
+
+Contains the model's final metrics, organized into three blocks:
+
+```json
+{
+  "model": "resnet",
+  "metrics": { "accuracy": "...", "f1_macro": "...", "..." : "..." },
+  "parameters": { "total": "...", "trainable": "..." },
+  "training": {
+    "training_time_seconds": "...",
+    "evaluation_time_seconds": "...",
+    "epochs_completed": "...",
+    "best_validation_accuracy": "...",
+    "best_validation_f1_macro": "...",
+    "max_gpu_memory_gb": "...",
+    "pretrained": true,
+    "freeze_backbone": true,
+    "class_weights": true
+  }
+}
+```
+
+This schema is the same one read by `compare_results.py` to build the comparison table.
+
+## `history.json`
+
+Contains the data collected during each training epoch (train/validation loss, accuracy and macro F1).
+
+Can be used to analyze:
+
+* convergence;
+* overfitting;
+* training stability;
+* the evolution of loss, accuracy and macro F1.
+
+## `confusion_matrix.png`
+
+Allows analysis of which classes are most confused by the model.
+
+## `loss_curve.png` / `accuracy_curve.png` / `f1_macro_curve.png`
+
+Show the per-epoch evolution of train/validation loss, accuracy and macro F1, respectively.
+
+## `training_summary.json`
+
+Generated by `main.py` at the end of each run. Consolidates the raw results (same schema as `metrics.json`) of every model trained in that specific run into a list.
+
+## `comparison.json`
+
+Generated by `compare_results.py` (a separate run, after training all three models). Consolidates the three models' results into a flattened table, making it easier to build the paper's comparison tables.
