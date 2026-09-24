@@ -1,143 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/article/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/article/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/article/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/changelog/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/changelog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/changelog/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/configuration/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/configuration/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/dataset/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/dataset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/dataset/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/getting-started/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/methodology/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/methodology/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/methodology/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/models/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/models/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/models/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/results/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/results/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/results/"/>
+    </url>
+    <url>
+        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/training/</loc>
+        <lastmod>2026-09-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/training/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/training/"/>
+    </url>
+    <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/article/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/article/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/article/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/article/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/article/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/changelog/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/changelog/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/changelog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/changelog/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/changelog/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/configuration/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/configuration/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/dataset/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/dataset/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/dataset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/dataset/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/dataset/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/getting-started/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/getting-started/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/getting-started/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/methodology/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/methodology/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/methodology/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/methodology/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/methodology/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/models/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/models/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/models/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/models/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/models/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/results/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/results/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/results/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/results/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/results/"/>
     </url>
     <url>
         <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/training/</loc>
         <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/training/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/training/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/article/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/article/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/article/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/changelog/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/changelog/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/changelog/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/configuration/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/configuration/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/dataset/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/dataset/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/dataset/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/getting-started/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/getting-started/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/getting-started/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/methodology/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/methodology/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/methodology/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/models/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/models/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/models/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/results/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/results/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/results/"/>
-    </url>
-    <url>
-        <loc>https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/training/</loc>
-        <lastmod>2026-09-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/en/training/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/training/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/en/training/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://gimedeiross.github.io/galaxy-morphology-cnn-comparison/training/"/>
     </url>
 </urlset>
